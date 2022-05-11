@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.ConnectionFragments"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Connections"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:fontFamily="@font/amaranth"
+        android:layout_marginLeft="15dp"
+        ></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="35dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="170dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="10dp"
+
+                app:cardBackgroundColor="#99FFB6"
+                app:cardCornerRadius="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Live session"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        app:lottie_loop="true"
+                        app:lottie_autoPlay="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="5dp"
+                        app:lottie_rawRes="@raw/live"></com.airbnb.lottie.LottieAnimationView>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="170dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                app:cardBackgroundColor="#F8D2D2"
+                app:cardCornerRadius="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Donate"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:layout_width="60dp"
+                        android:layout_height="50dp"
+                        app:lottie_loop="true"
+                        app:lottie_autoPlay="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        app:lottie_rawRes="@raw/donations"></com.airbnb.lottie.LottieAnimationView>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="170dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="10dp"
+
+                app:cardBackgroundColor="#FEFFC5"
+                app:cardCornerRadius="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Contact Info"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:layout_width="60dp"
+                        android:layout_height="50dp"
+                        app:lottie_loop="true"
+                        app:lottie_autoPlay="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        app:lottie_rawRes="@raw/messagec"></com.airbnb.lottie.LottieAnimationView>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="170dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                app:cardBackgroundColor="#BDA1D2"
+                app:cardCornerRadius="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Nearby Hospital"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="12dp"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        app:lottie_loop="true"
+                        app:lottie_autoPlay="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        app:lottie_rawRes="@raw/hospital"></com.airbnb.lottie.LottieAnimationView>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/amaranth"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:text="Near By Candidates"></TextView>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"></androidx.recyclerview.widget.RecyclerView>
+</LinearLayout>

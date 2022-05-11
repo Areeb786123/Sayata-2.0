@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.UploadPost"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Share your Advanture"
+        android:textSize="28dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/amaranth"
+        ></TextView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        app:cardCornerRadius="12dp"
+        app:cardBackgroundColor="#A8DAE5">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="16dp"
+                android:textStyle="normal"
+                android:id="@+id/story"
+                android:textColor="@color/white"
+                android:hint="Write your story here"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"></EditText>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+
+        android:text="Share some images with us "
+        android:textSize="19dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+
+        ></TextView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        app:cardCornerRadius="12dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:cardBackgroundColor="#FAF9E4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/camera"></ImageView>
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="80dp"
+                android:src="@drawable/gallery"></ImageView>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+
+        android:id="@+id/storyPost"
+
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="80dp"
+        app:cardCornerRadius="12dp"
+        app:cardBackgroundColor="#8AD3FF">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Post"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:layout_marginLeft="50dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/amaranth"
+            android:layout_marginTop="20dp"></TextView>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/user"
+            android:layout_marginLeft="120dp"></ImageView>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
